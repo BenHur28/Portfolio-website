@@ -1,15 +1,19 @@
 import "./App.css";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./components/navbar";
 import Body from "./components/body";
 import About from "./components/about";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 const App = () => {
 	return (
-		<div>
+		<div className="font-source">
 			<Navbar />
 			<Body />
 			<About />
+			<Projects />
+			<Contact />
 		</div>
 	);
 };
