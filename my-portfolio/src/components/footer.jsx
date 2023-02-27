@@ -7,7 +7,8 @@ const Footer = () => {
 				<div>
 					<h2 className="text-2xl mb-4"> Ben Hur</h2>
 					<p className="w-2/4">
-						A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+						1500s,
 					</p>
 				</div>
 				<div>

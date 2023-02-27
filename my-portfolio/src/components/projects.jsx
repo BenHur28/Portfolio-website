@@ -37,7 +37,9 @@ const Row = (props) => {
 			<div className="w-1/3">
 				<h2 className="text-4xl text my-4">{props.title}</h2>
 				<p className="w-5/6 text-xl py-4">{props.text}</p>
-				<button className="bg-teal-500 py-4 px-8 my-4 text-xl rounded-md drop-shadow-2xl">Project Link</button>
+				<button className="bg-yellow-400 py-4 px-8 my-4 text-lg font-bold rounded-md drop-shadow-2xl hover:-translate-y-1 transition-all duration-500">
+					Project Link
+				</button>
 			</div>
 		</div>
 	);
