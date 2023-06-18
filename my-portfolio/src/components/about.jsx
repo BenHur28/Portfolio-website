@@ -11,7 +11,7 @@ const About = () => {
 				<div className="flex flex-col lg:w-1/3">
 					<h3 className="text-3xl font-bold mb-8">Get to know me!</h3>
 					<p className="mb-3 text-lg">
-						I'm a <b>Frontend Web Developer</b> building the Front-end of Websites and Web Applications. Check out some of my work in the <b>Projects</b>
+						I'm a <b>Frontend Web Developer</b> building the Front-end of Websites and Web Applications. Check out some of my work in the <b>Projects </b>
 						section.
 					</p>
 					<p className="mb-3 text-lg">

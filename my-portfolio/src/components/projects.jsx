@@ -33,9 +33,9 @@ const Projects = () => {
 
 const Row = (props) => {
 	return (
-		<div className="flex flex-col justify-evenly my-10 items-center lg:flex-row text-center lg:text-start">
+		<div className="flex flex-col justify-center my-10 items-center lg:flex-row text-center lg:text-start">
 			<div className="lg:w-1/3">
-				<img className="object-fill h-96 w-full rounded-lg" src={`${props.img}`} alt="" />
+				<img className="object-fill h-2/3 w-2/3 rounded-lg mx-auto" src={`${props.img}`} alt="" />
 			</div>
 			<div className="lg:w-1/3">
 				<h2 className="text-4xl text my-4">{props.title}</h2>
