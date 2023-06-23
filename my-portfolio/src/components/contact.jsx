@@ -7,7 +7,7 @@ const Contact = () => {
 				className="text-xl font-bold bg-yellow-400 rounded-md mt-16 px-12 py-4 hover:-translate-y-1 transition-all duration-500"
 				href="mailto:bhur777@gmail.com"
 			>
-				EMAIL ME
+				CONTACT ME
 			</a>
 		</div>
 	);

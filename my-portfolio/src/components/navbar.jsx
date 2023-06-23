@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<nav className="fixed py-2 flex w-screen justify-between items-center bg-white">
+			<nav className="fixed py-2 flex w-screen justify-between items-center bg-white z-50">
 				<a className="flex flex-row items-center justify-between ml-7" href="">
 					<img className="h-12 w-12 rounded-full" src={Picture} alt="" />
 					<div className="flex item-center flex-shrink-0 mr-6">

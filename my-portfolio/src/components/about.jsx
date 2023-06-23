@@ -19,7 +19,7 @@ const About = () => {
 						<a className="underline font-bold text-yellow-500" href="https://github.com/BenHur28">
 							GitHub
 						</a>{" "}
-						page so please feel free to check it out. Also feel free to Connect or Follow me on my{" "}
+						page so please feel free to check it out. Also feel free to connect or follow me on my{" "}
 						<a className="underline font-bold text-yellow-500" href="https://www.linkedin.com/in/benhur93/">
 							Linkedin
 						</a>
@@ -27,7 +27,7 @@ const About = () => {
 					</p>
 					<p className="mb-8 text-lg">
 						I'm open to <b>Job</b> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience
-						then don't hesitate to <b>contact</b> me.
+						then please don't hesitate to <b>contact</b> me.
 					</p>
 					<a
 						className="bg-yellow-400 text-lg rounded-md py-4 px-8 lg:w-1/3 text-center font-bold hover:-translate-y-1 transition-all duration-500"

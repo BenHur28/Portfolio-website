@@ -1,11 +1,12 @@
 import React from "react";
+import Row from "./row";
 
 const Projects = () => {
 	return (
 		<div className="flex flex-col items-center justify-between py-24" id="projects">
 			<h2 className="text-5xl underline underline-offset-8">Projects</h2>
-			<p className="lg:w-1/3 text-xl text-center pt-10 mb-20">
-				Here you will find some of the personal and clients projects that I created with each project containing its own case study
+			<p className="lg:w-1/3 sm: px-2 text-xl text-center pt-10 mb-20">
+				Here you will find some of the personal projects that I have created to learn web development.
 			</p>
 			<div className="flex flex-col justify-evenly w-10/12">
 				<Row
@@ -26,26 +27,6 @@ const Projects = () => {
 					link="https://github.com/BenHur28/pokeapp"
 					text="PokeApp is a website where users can look up basic information about pokemon. PokeApp is one of the first websites I learned to create with React while also making API calls."
 				/>
-			</div>
-		</div>
-	);
-};
-
-const Row = (props) => {
-	return (
-		<div className="flex flex-col justify-center my-10 items-center lg:flex-row text-center lg:text-start">
-			<div className="lg:w-1/3">
-				<img className="object-fill h-2/3 w-2/3 rounded-lg mx-auto" src={`${props.img}`} alt="" />
-			</div>
-			<div className="lg:w-1/3">
-				<h2 className="text-4xl text my-4">{props.title}</h2>
-				<p className="lg:w-5/6 text-xl py-4 mb-6">{props.text}</p>
-				<a
-					href={props.link}
-					className="bg-yellow-400 py-4 px-8 my-4 text-lg font-bold rounded-md drop-shadow-2xl hover:-translate-y-1 transition-all duration-500"
-				>
-					Github Link
-				</a>
 			</div>
 		</div>
 	);
