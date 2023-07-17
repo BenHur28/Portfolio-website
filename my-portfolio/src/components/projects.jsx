@@ -1,5 +1,9 @@
 import React from "react";
 import Row from "./row";
+import game from "../assets/game.png";
+import pokemon from "../assets/pokemon.png";
+import chat from "../assets/chatApp.png";
+import airbnb from "../assets/airb.png";
 
 const Projects = () => {
 	return (
@@ -10,19 +14,25 @@ const Projects = () => {
 			</p>
 			<div className="flex flex-col justify-evenly w-10/12">
 				<Row
-					img="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-logo.jpg"
-					title="Airbnb-clone"
+					img={game}
+					title="The Game Library"
+					link="https://github.com/BenHur28/the-game-library"
+					text="The-Game-Library is a website where users can search games by category, platform, genre, relevancy, etc."
+				/>
+				<Row
+					img={airbnb}
+					title="Airbnb"
 					link="https://github.com/BenHur28/airbnb-clone"
-					text="Airbnb-clone, is a fully functional airbnb website created by implementing the MERN tech stack. Users are able to host their own places and book nights at any airbnb being hosted."
+					text="Airbnb, is a fully functional airbnb website created by implementing the MERN tech stack. Users are able to host their own places and book nights at any airbnb being hosted."
 				/>
 				<Row
-					img="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png"
-					title="Netflix-clone"
+					img={chat}
+					title="ChatApp 2.0"
 					link="https://github.com/BenHur28/Netflix-clone"
-					text="Netflix-clone, is a clone that I created of the netflix landing page. Users are able to register, login, and buy a subscription. All of the following was implemented using Firebase/Stripe/Redux."
+					text="ChatApp 2.0 is a live-chat web application where users can register and talk to each other. I recreated this project from my old python version using the MERN stack."
 				/>
 				<Row
-					img="https://i.pinimg.com/originals/c7/d7/02/c7d70249300e5473a14ded83c694d242.png"
+					img={pokemon}
 					title="PokeApp"
 					link="https://github.com/BenHur28/pokeapp"
 					text="PokeApp is a website where users can look up basic information about pokemon. PokeApp is one of the first websites I learned to create with React while also making API calls."

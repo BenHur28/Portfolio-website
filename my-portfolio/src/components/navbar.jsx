@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Picture from "../assets/pfp.png";
+import Picture from "../assets/pic.png";
 
 const Navbar = () => {
 	const [menu_class, setMenuClass] = useState("navbar-menu relative z-50 hidden");
@@ -20,7 +20,9 @@ const Navbar = () => {
 				<a className="flex flex-row items-center justify-between ml-7" href="">
 					<img className="h-12 w-12 rounded-full" src={Picture} alt="" />
 					<div className="flex item-center flex-shrink-0 mr-6">
-						<span className="font-bold tracking-tight text-2xl pl-5 hover:text-yellow-400 transition-all duration-500">Ben Hur</span>
+						<span className="font-bold tracking-tight text-2xl pl-5 hover:text-yellow-400 transition-all duration-500">
+							Ben Hur
+						</span>
 					</div>
 				</a>
 				<div className="lg:hidden">
@@ -59,22 +61,38 @@ const Navbar = () => {
 					<div>
 						<ul className="text-right">
 							<li className="border-t py-4 ">
-								<a onClick={updateMenu} className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500" href="#home">
+								<a
+									onClick={updateMenu}
+									className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500"
+									href="#home"
+								>
 									HOME
 								</a>
 							</li>
 							<li className="border-t py-4 ">
-								<a onClick={updateMenu} className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500" href="#about">
+								<a
+									onClick={updateMenu}
+									className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500"
+									href="#about"
+								>
 									ABOUT
 								</a>
 							</li>
 							<li className="border-t py-4 ">
-								<a onClick={updateMenu} className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500" href="#projects">
+								<a
+									onClick={updateMenu}
+									className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500"
+									href="#projects"
+								>
 									PROJECTS
 								</a>
 							</li>
 							<li className="border-t py-4 ">
-								<a onClick={updateMenu} className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500" href="#contact">
+								<a
+									onClick={updateMenu}
+									className="mr-3 text-lg font-bold hover:text-yellow-400 transition-all duration-500"
+									href="#contact"
+								>
 									CONTACT
 								</a>
 							</li>
