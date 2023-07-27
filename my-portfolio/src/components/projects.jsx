@@ -4,15 +4,26 @@ import game from "../assets/game.png";
 import pokemon from "../assets/pokemon.png";
 import chat from "../assets/chatApp.png";
 import airbnb from "../assets/airb.png";
+import lol from "../assets/lol.png";
 
 const Projects = () => {
 	return (
-		<div className="flex flex-col items-center justify-between py-24" id="projects">
+		<div
+			className="flex flex-col items-center justify-between py-24"
+			id="projects"
+		>
 			<h2 className="text-5xl underline underline-offset-8">Projects</h2>
 			<p className="lg:w-1/3 sm: px-2 text-xl text-center pt-10 mb-20">
-				Here you will find some of the personal projects that I have created to learn web development.
+				Here you will find some of the personal projects that I have created to
+				learn web development.
 			</p>
 			<div className="flex flex-col justify-evenly w-10/12">
+				<Row
+					img={lol}
+					title="LOL.GG (Currently WIP)"
+					link="https://github.com/BenHur28/lol.gg"
+					text="LOL.GG is my latest project that I am working on to learn Next.JS. Its a website where users can find information on the popular video game League of Legends."
+				/>
 				<Row
 					img={game}
 					title="The Game Library"
