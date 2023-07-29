@@ -52,18 +52,18 @@ const About = () => {
 				<div className="mt-8 lg:w-1/3">
 					<h3 className="text-3xl font-bold mb-8">My Skills</h3>
 					<div className="flex flex-row flex-wrap justify-start">
-						<Skills skill="HTML" />
-						<Skills skill="CSS" />
+						<Skills skill="TypeScript" />
 						<Skills skill="JavaScript" />
 						<Skills skill="React" />
-						<Skills skill="Express" />
+						<Skills skill="Tailwind CSS" />
+						<Skills skill="Next.js" />
+						<Skills skill="Node.js" />
 						<Skills skill="MongoDB" />
-						<Skills skill="GIT" />
-						<Skills skill="Github" />
+						<Skills skill="Express" />
 						<Skills skill="Python" />
 						<Skills skill="Django" />
 						<Skills skill="Flask" />
-						<Skills skill="SQL Basics" />
+						<Skills skill="SQL" />
 					</div>
 				</div>
 			</div>
