@@ -6,15 +6,14 @@ const About = () => {
 			<h2 className="text-5xl underline underline-offset-8">About me</h2>
 			<p className="lg:w-1/3 text-xl text-center px-8 pt-10 mb-20">
 				Here you will find more information about me, what I do, and my current
-				skills mostly in terms of programming and technology
+				skills mostly in terms of programming and technology.
 			</p>
 			<div className="flex flex-col justify-evenly w-10/12 lg:flex-row">
 				<div className="flex flex-col lg:w-1/3">
 					<h3 className="text-3xl font-bold mb-8">Get to know me!</h3>
 					<p className="mb-3 text-lg">
-						I'm a <b>Frontend Web Developer</b> building the Front-end of
-						Websites and Web Applications. Check out some of my work in the{" "}
-						<b>Projects </b>
+						I'm a <b>Frontend Web Developer</b> building Web Applications. Check
+						out some of my work in the <b>Projects </b>
 						section.
 					</p>
 					<p className="mb-3 text-lg">

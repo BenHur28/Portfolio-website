@@ -15,7 +15,7 @@ const Projects = () => {
 			<h2 className="text-5xl underline underline-offset-8">Projects</h2>
 			<p className="lg:w-1/3 sm: px-2 text-xl text-center pt-10 mb-20">
 				Here you will find some of the personal projects that I have created to
-				learn web development.
+				grow my skills in web development.
 			</p>
 			<div className="flex flex-col justify-evenly w-10/12">
 				<Row

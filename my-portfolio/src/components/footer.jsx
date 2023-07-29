@@ -7,8 +7,7 @@ const Footer = () => {
 				<div className="text-center sm:text-left pb-4">
 					<h2 className="text-2xl mb-4"> Ben Hur</h2>
 					<p className="w-full">
-						A Frontend focused Web Developer building the Frontend of Websites
-						and Web Applications
+						A Frontend focused Web Developer building Web Applications
 					</p>
 				</div>
 				<div className="text-center">
