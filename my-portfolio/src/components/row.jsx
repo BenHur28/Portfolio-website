@@ -18,7 +18,7 @@ const Row = (props) => {
 					target="_blank"
 					className="bg-yellow-400 py-4 px-8 my-4 text-lg font-bold rounded-md drop-shadow-2xl hover:-translate-y-1 transition-all duration-500"
 				>
-					Github Link
+					Source Code
 				</a>
 			</div>
 		</div>
