@@ -20,7 +20,7 @@ const Projects = () => {
 			<div className="flex flex-col justify-evenly w-10/12">
 				<Row
 					img={lol}
-					title="LOL.GG (Currently WIP)"
+					title="LOL.GG"
 					link="https://github.com/BenHur28/lol.gg"
 					text="LOL.GG is my latest project that I am working on to learn Next.JS. Its a website where users can find information on the popular video game League of Legends."
 				/>
